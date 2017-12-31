@@ -11,5 +11,5 @@ post_upgrade() {
 }
 
 run_depmod() {
-    depmod -a 4.9.72-1-lts
+    depmod -a 4.9.73-1-lts
 }
