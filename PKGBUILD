@@ -40,7 +40,6 @@ build() {
 
 package_spl-linux-lts() {
     pkgdesc="Solaris Porting Layer kernel modules."
-    install=spl.install
     provides=("spl")
     groups=("archzfs-linux-lts")
     conflicts=('spl-linux-lts-git')
