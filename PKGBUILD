@@ -21,7 +21,7 @@ _splver="0.7.9"
 _kernelver="4.14.67-1"
 _extramodules="4.14.67-1-lts"
 
-pkgver="${_splver}.$(echo ${_kernelver} | sed s/-/./g)"
+pkgver="${_splver}_$(echo ${_kernelver} | sed s/-/./g)"
 pkgrel=2
 makedepends=("linux-lts-headers=${_kernelver}")
 arch=("x86_64")
